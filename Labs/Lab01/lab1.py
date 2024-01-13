@@ -28,3 +28,8 @@ def calculate(operand1, operand2, operator):
     else:
         return "Invalid operator"
 
+# Perform the calculation
+result = calculate(operand1, operand2, operator)
+
+# Display the result
+print("\nThe result of your calculation is:", result)
